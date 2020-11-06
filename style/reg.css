@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Play', sans-serif;
+}
+body{
+    background-color: #74b9ff;
+}
+
+.button{
+    width: 100%;
+    height: 100%;
+}
+.ramka {
+    margin-left: auto;
+    margin-right: auto;
+    width:  500px;
+    background-color:#3b348d;
+}
+form ul{
+    padding-left: 0px;
+}
+legend{
+    position: absolute;
+    top: 15px;
+    border: none;
+}
+form li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+
+}
+form li>label {
+
+    margin:0px;
+    width: auto;
+    height: 1em;
+
+
+}
+form li>input {
+    height: 25px;
+    width: 210px;
+    margin-right: 0;
+}
+
+form .knopka {
+    width:  100%;
+}
+.knopka {
+    font-weight: 700;
+}
+.select{
+    width: 210px;
+    height: 145px;
+}
+li:last-child{
+    margin: 10px 0;
+    height:auto;  
+    
+}
+.button{
+    text-decoration: none;
+}
+a:link{
+    color: black;
+}a:visited{
+    color: black;
+}

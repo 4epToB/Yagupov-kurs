@@ -1,0 +1,19 @@
+.container{
+    background-color: violet;
+    height: 120px;
+}
+body{
+    margin: 0px;
+    background-color: yellow;
+}
+.cvet{
+    background-color: rgb(95, 173, 106);
+}
+.height{
+    height: 40px;
+    width: 100%;
+}
+#a{
+    position: fixed;
+    top: 0px;
+}

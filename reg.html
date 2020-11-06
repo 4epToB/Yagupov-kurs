@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel=stylesheet href="style/reg.css">
+    <link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap" rel="stylesheet">
+    <title>Регистрация</title>
+</head>
+<body>
+    <div class="regform">
+        <form>
+            <fieldset class="ramka">
+            <legend> Заполните поля регистарции</legend> 
+            <ul>
+                <li><label for="name"> Имя</label><input type="text" id="name" name="name"></li>
+                <li><label for="surname"> Фамилия </label><input type="text" id="surname" name="surname"></li>
+                <li><label for="email"> Электронная почта</label><input type="email" id="email" name="email" required ></li>
+                <li><label for="username"> Имя пользователя </label><input type="text"  id="username" name="username" required minlength="3" maxlength="15"></li>
+                <li><label for="userpass"> Пароль </label><input type="password" id="userpass" name="userpass" required  minlength="6" maxlength="15"></li>
+                <li><label for="userpass2"> Подтверждение пароля </label><input type="password2" id="userpass2" name="userpass2" required  minlength="6" maxlength="15"></li>
+                <li>
+                    <p>Выберите любмые жанры</p>
+                    <select class="select" name="select" id="select" multiple required size="3">
+                        <option value="">Рок</option>
+                        <option value="">Фолк-музыка</option>
+                        <option value="">Латиноамериканская музыка</option>
+                        <option value="">Блюз</option>
+                        <option value="">Ритм-н-блюз</option>
+                        <option value="">Джаз</option>
+                        <option value="">Шансон, романс, авторская песня</option>
+                        <option value="">Рэп</option>
+                    </select>
+                </li>
+            </ul> 
+                <div>
+                    <button class="knopka" type="submit">Зарегистрироваться</button>
+                    <button type="button"><a class="button" href="index.html">На главную</a></button>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
